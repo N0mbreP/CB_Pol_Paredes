@@ -90,6 +90,7 @@ const mostrar=ref(false)
     <h1>Exemle v-if i v-else</h1>
     <p v-if="logat">Hola!!! ^-^</p>
     <p v-else="logat">Inicia sessio porfa n-n</p>
+    <button @click="logat=!logat">Iniciar sessio/Log out</button>
   </div>
 
   <div>
